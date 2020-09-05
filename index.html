@@ -146,6 +146,9 @@
                     tension: 0
                 }
             },
+            legend: {
+                display: false
+            },
             responsive: true
         };
         var backgroundColor = [
@@ -300,7 +303,7 @@
             type: 'bar',
             data: {
                 datasets: [{
-                    label: 'Daily On-Campus Positivity Rate',
+                    label: 'Positivity',
                     data: onCampusDaily,
                     borderColor: strokeColor,
                     backgroundColor: fillColor,
@@ -309,7 +312,7 @@
                     type: 'line'
                 },
                 {
-                    label: 'Daily On-Campus Tests',
+                    label: 'Tests',
                     data: onCampusTests,
                     backgroundColor: secondaryFillColor,
                     borderColor: secondaryStrokeColor,
@@ -325,7 +328,7 @@
             data: {
                 datasets: [
                     {
-                        label: 'Daily Off-Campus Positivity Rate',
+                        label: 'Positivity',
                         data: offCampusDaily,
                         borderColor: strokeColor,
                         backgroundColor: fillColor,
@@ -334,7 +337,7 @@
                         type: 'line'
                     },
                     {
-                    label: 'Daily Off-campus Tests',
+                    label: 'Tests',
                     data: offCampusTests,
                     backgroundColor: secondaryFillColor,
                     borderColor: secondaryStrokeColor,
