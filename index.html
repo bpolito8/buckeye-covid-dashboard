@@ -3,9 +3,20 @@
 <head>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"></script>
     <style>
-        .half-width {
-            width: 50%;
+/* Smartphones (portrait and landscape) ----------- */
+        @media only screen 
+            and (min-device-width : 320px) 
+            and (max-device-width : 480px) {
+                .half-width {
+                    width: 100%;
+                }
         }
+        @media (min-width: 481px) {
+            .half-width {
+                    width: 50%;
+                }
+        }
+
 
         .float-right {
             float: right;
