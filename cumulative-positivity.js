@@ -1,26 +1,26 @@
 var cumulativePositivity = [
     {
-        t: new Date("2020-08-26 EDT"),
+        t: new Date("2020-08-26"),
         y: 1.81
     },
     {
-        t: new Date("2020-08-27 EDT"),
+        t: new Date("2020-08-27"),
         y: 2.15
     },
     {
-        t: new Date("2020-08-31 EDT"),
+        t: new Date("2020-08-31"),
         y: 3.13
     },
     {
-        t: new Date("2020-09-01 EDT"),
+        t: new Date("2020-09-01"),
         y: 3.38
     },
     {
-        t: new Date("2020-09-02 EDT"),
+        t: new Date("2020-09-02"),
         y: 3.43
     },
     {
-        t: new Date("2020-09-03 EDT"),
+        t: new Date("2020-09-03"),
         y: 3.60
     }
 ];

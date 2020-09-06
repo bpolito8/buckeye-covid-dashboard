@@ -1,26 +1,26 @@
 var sevenDayAverage = [
     {
-        t: new Date("2020-08-26 EDT"),
+        t: new Date("2020-08-26"),
         y: 2.13
     },
     {
-        t: new Date("2020-08-27 EDT"),
+        t: new Date("2020-08-27"),
         y: 2.77
     },
     {
-        t: new Date("2020-08-31 EDT"),
+        t: new Date("2020-08-31"),
         y: 4.30
     },
     {
-        t: new Date("2020-09-01 EDT"),
+        t: new Date("2020-09-01"),
         y: 4.45
     },
     {
-        t: new Date("2020-09-02 EDT"),
+        t: new Date("2020-09-02"),
         y: 4.95
     },
     {
-        t: new Date("2020-09-03 EDT"),
+        t: new Date("2020-09-03"),
         y: 5.48
     }
 ];
