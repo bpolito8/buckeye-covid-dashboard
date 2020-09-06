@@ -22,6 +22,10 @@ var cumulativePositivity = [
     {
         t: new Date("2020-09-03"),
         y: 3.60
+    },
+    {
+        t: new Date("2020-09-04"),
+        y: 3.71
     }
 ];
 

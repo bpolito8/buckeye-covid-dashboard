@@ -22,6 +22,10 @@ var sevenDayAverage = [
     {
         t: new Date("2020-09-03"),
         y: 5.48
+    },
+    {
+        t: new Date("2020-09-04"),
+        y: 5.81
     }
 ];
 

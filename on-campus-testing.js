@@ -22,6 +22,10 @@ var onCampusDaily = [
     {
         t: new Date("2020-09-03"),
         y: 4.02
+    },
+    {
+        t: new Date("2020-09-04"),
+        y: 4.33
     }
 ];
 var onCampusTests = [
@@ -48,6 +52,10 @@ var onCampusTests = [
     {
         t: new Date("2020-09-03"),
         y: 1601
+    },
+    {
+        t: new Date("2020-09-04"),
+        y: 199
     }
 ];
 

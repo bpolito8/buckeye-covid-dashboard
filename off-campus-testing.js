@@ -22,6 +22,10 @@ var offCampusDaily = [
     {
         t: new Date("2020-09-03"),
         y: 9.61
+    },
+    {
+        t: new Date("2020-09-04"),
+        y: 5.45
     }
 ];
 var offCampusTests = [
@@ -48,6 +52,10 @@ var offCampusTests = [
     {
         t: new Date("2020-09-03"),
         y: 790
+    },
+    {
+        t: new Date("2020-09-04"),
+        y: 1457
     }
 ];
 
