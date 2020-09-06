@@ -18,7 +18,12 @@ var onCampusDaily = [
     {
         t: new Date("2020-09-02"),
         y: 3.47
-    }];
+    },
+    {
+        t: new Date("2020-09-03"),
+        y: 4.02
+    }
+];
 var onCampusTests = [
     {
         t: new Date("2020-08-26"),
@@ -39,7 +44,12 @@ var onCampusTests = [
     {
         t: new Date("2020-09-02"),
         y: 2310
-    }];
+    },
+    {
+        t: new Date("2020-09-03"),
+        y: 1601
+    }
+];
 
     var oncampuscontext = document.getElementById('on-campus-data').getContext('2d');
     var oncampuschart = new Chart(oncampuscontext, {

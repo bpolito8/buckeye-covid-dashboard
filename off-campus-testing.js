@@ -18,6 +18,10 @@ var offCampusDaily = [
     {
         t: new Date("2020-09-02"),
         y: 11.03
+    },
+    {
+        t: new Date("2020-09-03"),
+        y: 9.61
     }
 ];
 var offCampusTests = [
@@ -40,7 +44,12 @@ var offCampusTests = [
     {
         t: new Date("2020-09-02"),
         y: 766
-    }];
+    },
+    {
+        t: new Date("2020-09-03"),
+        y: 790
+    }
+];
 
     var offcampuscontext = document.getElementById('off-campus-data').getContext('2d');
     var offcampuschart = new Chart(offcampuscontext, {

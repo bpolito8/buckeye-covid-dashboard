@@ -18,7 +18,12 @@ var sevenDayAverage = [
     {
         t: new Date("2020-09-02"),
         y: 4.95
-    }];
+    },
+    {
+        t: new Date("2020-09-02"),
+        y: 5.48
+    }
+];
 
     var sevenDayAverageContext = document.getElementById('seven-day-average').getContext('2d');
     var sevenDayAverageChart = new Chart(sevenDayAverageContext, {
