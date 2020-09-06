@@ -56,7 +56,7 @@ var onCampusTests = [
         type: 'bar',
         data: {
             datasets: [{
-                label: 'Positivity',
+                label: 'Positivity (%)',
                 data: onCampusDaily,
                 borderColor: strokeColor,
                 backgroundColor: fillColor,

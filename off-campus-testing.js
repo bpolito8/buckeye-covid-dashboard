@@ -57,7 +57,7 @@ var offCampusTests = [
         data: {
             datasets: [
                 {
-                    label: 'Positivity',
+                    label: 'Positivity (%)',
                     data: offCampusDaily,
                     borderColor: strokeColor,
                     backgroundColor: fillColor,
